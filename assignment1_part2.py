@@ -13,6 +13,7 @@ class Book:
     def __init__(self, author, title):
         """
         The constructor for the Book class.
+        
         Parameters:
             author (str): The name of an author.
             title (str): The book title of an author. 
@@ -31,3 +32,11 @@ class Book:
         """
 
         print("{}, written by {}".format(self.author, self.title))
+
+
+if __name__ == '__main__':
+    book_obj_1 = Book('Of Mice and Men', 'John Steinbeck')
+    book_obj_2 = Book('To Kill a Mockingbird', 'Harper Lee')
+
+    book_obj_1.display()
+    book_obj_2.display()
