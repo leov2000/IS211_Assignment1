@@ -44,6 +44,15 @@ def listDivide(numbers, divide = 2):
         raise ListDivideException
 
 def testDivide():
+    """" an auxilary function used to call 
+    listDivide.
+
+    Args: None
+
+    Returns | Raises: Returns None, if there's an error an exception is raised
+
+    """
+    
     listDivide([1,2,3,4,5])
     listDivide([2,4,6,8,10])
     listDivide([30, 54, 63,98, 100], divide=10)
