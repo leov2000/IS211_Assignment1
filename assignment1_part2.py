@@ -6,6 +6,10 @@ class Book:
         author (str): The name of an author.
         title (str): The book title of an author.
     """
+
+    author = ''
+    title = ''
+
     def __init__(self, author, title):
         """
         The constructor for the Book class.
