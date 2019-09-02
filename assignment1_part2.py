@@ -1,6 +1,6 @@
 class Book:
     """
-    This is a class used to create Book objects.
+    A Book class used to create Book objects.
 
     Attributes:
         author (str): The name of an author.
@@ -25,5 +25,5 @@ class Book:
 
         Returns: None
         """
-        
+
         print("{}, written by {}".format(self.author, self.title))
