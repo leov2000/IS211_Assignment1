@@ -1,15 +1,16 @@
 def listDivide(numbers, divide = 2):
-    """a function that takes a number list, a 
+    """
+    a function that takes a number list, a 
     divide param and returns the amount of items that are 
     divisible by the divide param.
 
-    Args:
-    numbers - List[Int]: A list of integer values.
-    divide - Int: A integer value.
+    Parameters:
+        numbers(list[int]): A list of integer values.
+        divide(int)       : A integer value.
     
     Returns | Raises:
-    An integer representing the sum of the list items divisible by divide
-    or an Exception if a scenario defined by the examples below fails.
+        An integer representing the sum of the list items divisible by divide
+        or an Exception if a scenario defined by the examples below fails.
 
     Examples:
     >>> listDivide([1,2,3,4,5])
@@ -44,15 +45,14 @@ def listDivide(numbers, divide = 2):
         raise ListDivideException
 
 def testDivide():
-    """" an auxilary function used to call 
-    listDivide.
+    """" 
+    an auxilary function used to call listDivide.
 
-    Args: None
+    Parameters: None
 
     Returns | Raises: Returns None, if there's an error an exception is raised
-
     """
-    
+
     listDivide([1,2,3,4,5])
     listDivide([2,4,6,8,10])
     listDivide([30, 54, 63,98, 100], divide=10)
