@@ -17,4 +17,13 @@ class Book:
         self.title = title
 
     def display(self):
+        """
+        An auxilary method that prints a string using the 
+        instance attributes `author` & `title`
+
+        Parameters: None
+
+        Returns: None
+        """
+        
         print("{}, written by {}".format(self.author, self.title))
